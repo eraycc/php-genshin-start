@@ -20,8 +20,8 @@
 - genshinstart.php内可以自己自定义不需要执行跳转的useragent，比如针对某些搜索引擎UA
 - genshinstart.php内你也可以自定义更多过滤事件和方法：比如针对某些IP数组启动调用或者不调用的策略等
 ### genshin静态文件.zip
-- 这里面包含了genshin目录下的：
-- js，assets，font，image目录
+- 这里面包含了路径`/genshin/`下的静态文件：
+- 目录js，assets，font，image
 - 解压后这些目录需要与genshinstart.php，index.php文件保持同级目录
 ### 调用代码：
 
