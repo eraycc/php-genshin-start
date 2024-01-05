@@ -7,6 +7,7 @@
 - 传参url：genshinstart.php?url=your-jump-url
 - 调用后访问会将you-jump-url转化成your-base64-jump-url，然后
 - 传入index.php的url参数中执行跳转【是为了得到完整的URL地址，比如&id=xxx】
+- 需要修改：$baseurl = "https://your-base-domain/genshin/";
 
 ### index.php
 - 传参url：index.php?url=your-jump-url或your-base64-jump-url
